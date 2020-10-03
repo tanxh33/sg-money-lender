@@ -40,14 +40,97 @@
     </div>
   </nav>
 
-  <!-- Section A: Email Us / Contact Us -->
+  <!-- Section A: Email Us / Contact Details -->
   <section id="contact-a">
     <div class="container">
-
+      <h2 class="section-title">Ask us any questions you have</h2>
+      <div id="contact-grid">
+        <div id="contact-page-form">
+          <h3>Email Us</h3>
+          <form action="" id="contact-form">
+            <div>
+              <span class="form-label">Name</span>
+              <input class="form-field" type="text" name="name" />
+            </div>
+            <div>
+              <span class="form-label">Email Address</span>
+              <input class="form-field" type="email" name="email" />
+            </div>
+            <div>
+              <span class="form-label">How can we help you?</span>
+              <select class="form-field" name="help-method" id="help-method">
+                <option value="nil">-</option>
+                <option value="general">General questions</option>
+                <option value="account">My account</option>
+                <option value="application">My loan application</option>
+                <option value="payment">My payment status</option>
+                <option value="privacy">Safety and privacy</option>
+              </select>
+            </div>
+            <div>
+              <span class="form-label">Email subject</span>
+              <input class="form-field" type="text" name="subject" />
+            </div>
+            <div>
+              <span class="form-label">Description</span>
+              <textarea name="description" form="contact-form" class="form-field"></textarea>
+            </div>
+            <div>
+              <span class="form-label">Attachments</span>
+              <input class="form-field" type="file" name="attachments" />
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary">
+          </form>
+        </div>
+        <div id="contact-page-details">
+          <h3>Contact Details</h3>
+          <div id="contact-page-details-grid">
+            <i class="far fa-clock fa-2x"></i>
+            <div>
+              <h4>Working Hours</h4>
+              <div id="working-hours">
+                <span>Mon - Fri</span>
+                <span>10:00 am - 6:00pm</span>
+                <span>Sat, Sun & Public Holidays</span>
+                <span>Closed</span>
+              </div>
+            </div>
+            <i class="fa fa-map-marker-alt fa-2x"></i>
+            <div>
+              <h4>Address</h4>
+              26 Nanyang Ave, Hall 8 Block 45, Singapore 629812
+            </div>
+            <i class="fa fa-phone-alt fa-2x"></i>
+            <div>
+              <h4>Phone</h4>
+              +65 6790 6320
+            </div>
+            <i class="fa fa-envelope fa-2x"></i>
+            <div>
+              <h4>Email</h4>
+              creditvine@cvmail.com
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Section B: Map -->
+  <section id="contact-b">
+    <!-- <div class="container"> -->
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="1280" height="300"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=ntu%20hall%208&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+        </div>
+      </div>
+    <!-- </div> -->
+  </section>
 
   <!-- Footer -->
   <footer id="main-footer">
