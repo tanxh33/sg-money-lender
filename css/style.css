@@ -112,7 +112,7 @@ textarea {
 
 #navbar .container > ul > li > a {
   flex: auto;
-  padding: 1.55rem;
+  padding: 1.55rem 1rem;
   color: #000000;
 }
 
