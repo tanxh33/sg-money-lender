@@ -63,14 +63,18 @@ textarea {
   border: 2px solid var(--secondary-color);
 }
 
-.btn-primary {
+.btn {
   background: var(--primary-color);
-  color: #ffffff;
-  font-size: 0.9rem;
+  font-size: 14px;
   font-weight: 600;
   height: 3rem;
   border: none;
   border-radius: 1.5rem;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -500,11 +504,6 @@ textarea {
   height: 300px;
   width: 1280px;
 }
-
-
-/* ============================= */
-/* Personal Loan page */
-/* ============================= */
 
 
 /* ============================= */
