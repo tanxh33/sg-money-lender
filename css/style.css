@@ -115,6 +115,11 @@ ul {
   background: var(--light-color);
 }
 
+/* Highlighting current page in the navbar */
+.current {
+  background: var(--light-color);
+}
+
 /* ============================= */
 /* Navbar login button */
 /* ============================= */
@@ -328,7 +333,7 @@ ul {
 /* Home C */
 /* ============================= */
 #home-c {
-  padding: 4rem 0;
+  padding: 4rem 0 6rem;
 }
 
 #home-c .benefits-container {
