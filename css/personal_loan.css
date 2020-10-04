@@ -62,8 +62,9 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr) 0.95fr;
+  /* grid-template-columns: repeat(4, 20vh) 15vh; */
   /* grid-template-rows: 0.9fr minmax(0, 0.65fr) 0.9fr minmax(0, 0.65fr); */
-  grid-template-rows: 20vh minmax(0, 15vh) 20vh minmax(0, 15vh);
+  grid-template-rows: 200px minmax(0, 150px) 200px minmax(0, 150px);
 }
 
 /* ============================= */
@@ -121,6 +122,7 @@
   font-weight: 700;
   max-width: 10rem;
   margin: 1.5rem 1.5rem 1rem;
+  padding-bottom: 2rem;
 }
 
 #personal-loan-b #personal-loan-b-graphic div span {
