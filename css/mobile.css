@@ -1,0 +1,498 @@
+:root {
+  --smaller-font: 0.9rem;
+}
+
+/* ============================= */
+/* 992px */
+/* ============================= */
+@media(max-width: 992px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  /* Home showcase */
+  #showcase .container {
+    height: 350px;
+  }
+
+  #showcase .loan-calculator {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 350px;
+  }
+
+  #showcase .loan-calculator h3 {
+    margin-bottom: 1rem;
+  }
+
+  #showcase .form-field {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Home page */
+  #home-a {
+    padding: 4rem 0 2rem;
+  }
+
+  #home-a .steps {
+    gap: 0 1.5rem;
+  }
+
+  #home-c .benefits-container .benefits {
+    gap: 1.5rem;
+  }
+
+  #home-b {
+    padding: 0 2rem;
+  }
+
+  #home-c {
+    padding: 2rem 0 4rem;
+  }
+
+  #home-c .benefits-container .benefits {
+    padding: 2rem;
+  }
+
+  /* Contact page */
+  #contact-a #contact-grid {
+    grid-template-columns: 2fr 1.4fr;
+    gap: 2rem;
+    padding-top: 0;
+  }
+
+  #contact-a #contact-page-form #contact-form {
+    gap: 1rem;
+  }
+
+  /* Personal loan page */
+  #personal-loan-b {
+    margin: 2rem 0;
+  }
+
+  #personal-loan-c {
+    margin: 0;
+  }
+
+  #personal-loan-c .section-title {
+    margin: 0;
+  }
+
+  #personal-loan-c #personal-loan-benefits {
+    padding: 2rem 2rem;
+  }
+
+  /* Footer */
+  #main-footer {
+    padding: 2rem 0;
+  }
+
+  /* Footer column B */
+  #main-footer .footer-container .footer-col-b ul li {
+    line-height: 1.7;
+  }
+}
+
+/* ============================= */
+/* 768px */
+/* ============================= */
+@media(max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .section-title {
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    height: 2rem;
+  }
+
+  /* Navbar */
+  #navbar {
+    font-size: var(--smaller-font);
+  }
+
+  #navbar #logo-navbar {
+    height: 60px;
+  }
+
+  #navbar .container > ul > li > a {
+    padding: 1.5rem 0.7rem;
+  }
+
+  #navbar ul li ul li a {
+    padding: 0.7rem;
+  }
+
+  #navbar ul li:hover ul {
+    top: 4rem;
+  }
+
+  /* Home showcase */
+  #showcase .container {
+    height: 300px;
+  }
+
+  #showcase .loan-calculator {
+    margin: 1.5rem 0;
+    padding: 0.5rem 0;
+    width: 280px;
+  }
+
+  #showcase .loan-calculator h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  #showcase .loan-calculator form {
+    padding: 0 1rem;
+  }
+
+  #showcase .form-label,
+  #showcase .form-hint {
+    font-size: var(--smaller-font);
+    margin-bottom: 0rem;
+  }
+
+  #showcase .form-hint {
+    margin-bottom: 0.3rem;
+  }
+
+  /* Home page */
+  #home-a {
+    padding: 2rem 0;
+  }
+
+  #home-a .steps {
+    padding: 0;
+    gap: 0 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr min-content 0.8fr;
+  }
+
+  #home-a .steps img {
+    width: 80%;
+  }
+
+  #home-a .steps p {
+    line-height: 1.6;
+    font-size: var(--smaller-font);
+  }
+
+  #home-b .solutions .solution .solution-text {
+    padding: 2.5rem 1.5rem 1rem;
+    font-size: var(--smaller-font);
+  }
+
+  #home-c {
+    padding: 1rem 0 4rem;
+  }
+
+  #home-c .benefits-container {
+    /* 3 cols 3 rows */
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: min-content 1fr 30px;
+  }
+  
+  #home-c .benefits-container ul {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+  }
+
+  #home-c .benefits-container .benefits {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    gap: 1.5rem;
+    padding: 2rem;
+    font-size: var(--smaller-font);
+  }
+  
+  #home-c #benefit-border-a {
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+  }
+  
+  #home-c #benefit-border-b {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+
+  /* Contact page */
+  #contact-a {
+    margin: 2rem 0;
+  }
+
+  #contact-a #contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  #contact-a #contact-page-details {
+    grid-row-start: 1;
+  }
+
+  #contact-a #contact-page-details #contact-page-details-grid {
+    font-size: var(--smaller-font);
+  }
+
+  /* Personal loan page */
+  #personal-loan-a .container {
+    height: 350px;
+  }
+
+  #personal-loan-a .container > div {
+    padding: 2rem 0;
+    padding-left: 1rem;
+    gap: 1rem;
+  }
+
+  #personal-loan-a .container p {
+    font-size: var(--smaller-font);
+  }
+
+  #personal-loan-a .btn-primary {
+    padding: 0.6rem 2rem 1.8rem;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic {
+    max-width: 350px;
+    grid-template-columns: none;
+    grid-template-rows: none;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div h4 {
+    margin: 1rem 1.5rem 1rem;
+    padding-bottom: 1.2rem;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div span {
+    font-size: 0.8rem;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic img:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic img:nth-of-type(2) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic img:nth-of-type(3) {
+    grid-column: 1 / 2;
+    grid-row: 5 / 7;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic img:nth-of-type(4) {
+    grid-column: 1 / 2;
+    grid-row: 7 / 9;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic img:nth-of-type(5) {
+    grid-column: 1 / 2;
+    grid-row: 9 / 11;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div:nth-of-type(2) {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div:nth-of-type(3) {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div:nth-of-type(4) {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div:nth-of-type(5) {
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+  }
+
+  #personal-loan-b #personal-loan-b-graphic div:nth-of-type(5) a:hover {
+    background: #bcbcc4e6;
+  }
+
+  #personal-loan-c #personal-loan-benefits {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 4px 1fr 4px 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  #personal-loan-c #personal-loan-benefits div {
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  #personal-loan-c #personal-loan-benefits p {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+
+  /* Footer */
+  #main-footer .footer-container {
+    gap: 1rem;
+  }
+
+  #main-footer #logo-footer {
+    height: 60px;
+  }
+
+  #main-footer .footer-container .footer-col-a .socials {
+    width: 100px;
+  }
+
+  #main-footer .footer-container .footer-col-b ul li:not(:first-child) {
+    font-size: var(--smaller-font);
+    line-height: 1.5;
+  }
+  #main-footer .footer-container .footer-col-c ul li,
+  #main-footer .footer-container .footer-col-d ul li {
+    padding: 0.5rem;
+  }
+
+  #main-footer .footer-bottom ul {
+    gap: 1rem;
+  }
+}
+
+/* ============================= */
+/* 600px */
+/* ============================= */
+@media(max-width: 600px) {
+  #navbar .container {
+    flex-direction: column;
+    padding: 0 0.5rem;
+  }
+
+  #navbar .container > ul {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #navbar .container > ul > li > a {
+    padding: 1rem 0.25rem;
+    text-align: center;
+  }
+
+  #navbar .container > ul {
+    margin-bottom: 1rem;
+  }
+
+  #btn-login {
+    padding: 0.5rem 4rem;
+  }
+
+  #showcase {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(71,158,196,1) 100%); 
+  }
+
+  #showcase .loan-calculator {
+    float: none;
+    margin: 1rem auto;
+  }
+
+  #home-a .section-title {
+    padding: 0 1rem;
+  }
+
+  #home-a .steps {
+    grid-template-columns: none;
+    grid-template-rows: none;
+    grid-auto-flow: row;
+    gap: 0.5rem 0;
+  }
+
+  #home-a .steps img {
+    padding: 0 3rem;
+  }
+
+  #home-b .solutions {
+    padding: 0 1rem;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    gap: 0 2rem;
+  }
+
+  #home-c .benefits-container {
+    grid-template-columns: 15px 1fr 15px;
+    grid-template-rows: min-content 1fr 15px;
+  }
+
+  #home-c .benefits-container ul {
+    padding: 1rem 3rem;
+    justify-content: space-around;
+  }
+
+  #home-c .benefits-container ul li {
+    font-size: 1.3rem;
+  }
+
+  #home-c .benefits-container .benefits {
+    grid-template-columns: none;
+  }
+
+  #contact-a .section-title {
+    padding: 0 1rem;
+  }
+
+  #contact-a #contact-grid {
+    padding: 0;
+  }
+
+  #contact-a #contact-page-form #contact-form {
+    grid-template-columns: none;
+  }
+
+  #contact-a #contact-page-form #contact-form > div:nth-child(n+3) {
+    grid-column: 1 / 2;
+  }
+
+  #personal-loan-a {
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(71,158,196,1) 100%); }
+
+  #personal-loan-a .container {
+    height: auto;
+    grid-template-columns: none;
+  }
+
+  #personal-loan-a .container .section-title {
+    padding: 0;
+  }
+
+  #personal-loan-a .container > div {
+    padding: 2rem;
+  }
+
+  #main-footer .footer-container {
+    grid-template-columns: none;
+  }
+
+  #main-footer .footer-container .footer-col-d {
+    margin-top: -1rem;
+  }
+
+  #main-footer .footer-bottom ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 2rem;
+  }
+
+}

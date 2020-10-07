@@ -40,6 +40,7 @@
   font-weight: 600;
   /* Prevent button stretching to the flex container's width */
   align-self: flex-start;
+  display: inline;
 }
 
 
@@ -62,8 +63,6 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr) 0.95fr;
-  /* grid-template-columns: repeat(4, 20vh) 15vh; */
-  /* grid-template-rows: 0.9fr minmax(0, 0.65fr) 0.9fr minmax(0, 0.65fr); */
   grid-template-rows: 200px minmax(0, 150px) 200px minmax(0, 150px);
 }
 
@@ -217,6 +216,14 @@
   padding-bottom: 3rem;
 }
 
+#personal-loan-c #personal-loan-benefits .grid-separator {
+  background: #cccccc;
+}
+
+#personal-loan-c #personal-loan-benefits img {
+  max-width: 100%;
+}
+
 #personal-loan-c #personal-loan-benefits h3 {
   font-weight: 600;
   margin: 1.5rem 0;
@@ -226,8 +233,4 @@
 #personal-loan-c #personal-loan-benefits p {
   width: 90%;
   line-height: 1.5;
-}
-
-#personal-loan-c #personal-loan-benefits .grid-separator {
-  background: #cccccc;
 }
