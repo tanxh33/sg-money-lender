@@ -302,6 +302,7 @@ textarea {
 /* ============================= */
 #home-b {
   padding: 0 4rem;
+  text-align: center;
 }
 
 #home-b .subtitle {
@@ -354,6 +355,14 @@ textarea {
 #home-b .solutions .solution .solution-text p {
   padding: 0.5rem 0;
 }
+
+#home-b .btn-primary {
+  padding: 0.9rem 3rem;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+}
+
 
 /* #home-b #bg-personal,
 #home-b #bg-business,
