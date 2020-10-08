@@ -409,6 +409,17 @@
     margin: 1rem auto;
   }
 
+  #home-z-grid {
+    grid-template-columns: none;
+  }
+
+  #home-z-grid img {
+    width: 50%;
+    border-radius: 50%;
+  }
+  #home-z .section-title:last-child {
+    margin-top: 0.5rem;
+  }
   #home-a .section-title {
     padding: 0 1rem;
   }
